@@ -1,0 +1,46 @@
+STEPS TO SOLVE RUBIK'S CUBE:
+
+
+The Rubik’s Cube has six faces.
+Each face is defined by its center. The face with the blue center will ultimately be blue when the cube is solved.
+Centers don’t move. White is typically opposite of yellow, blue is typically opposite green, and red is typically opposite orange.
+Corner pieces have three stickers and edge pieces have two stickers. When solving the cube, try to keep in mind that you are moving pieces, not stickers. Another way of thinking about this point is that a red sticker on a corner piece will never move to an edge position.
+
+Cube Notation
+
+
+
+Right face: R
+Left face: L
+Upward-pointing face: U
+Downward-pointing face: D
+Front face: F
+Back face: B
+
+R, L, U, D, F, or B means to turn the corresponding face 90 degrees
+
+R’, L’, U’, D’, F’, or B’ means to turn the corresponding face 90 degrees counterclockwise.
+
+R2, L2, U2, D2, F2, or B2 means to turn the corresponding face 180 degrees
+
+Step One: Make the Daisy
+
+Step Two: Create the White Cross
+
+Step Three: Solve the First Layer
+
+Time to learn your first algorithms. 
+The following “trigger moves” are the most basic of the bunch:
+
+Right Trigger = R U R’
+Left Trigger = L’ U’ L
+
+Step Four: Solve the Middle Layer
+
+U + Right Trigger
+
+Doing so will disturb the first layer. Fix the displaced white corner sticker as you did in step three.
+
+If it matches on the left, perform the following algorithm:
+
+U’ + Left Trigger
